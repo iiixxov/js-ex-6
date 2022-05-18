@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+		#text{
+			border: 1px solid black;
+			width: 300px;
+			position: absolute;
+			left:100px;
+		}
+		button{
+			position: absolute;
+			left:405px;
+		}
+	</style>
+	<script type="text/javascript">function change(){
+		text = document.getElementById('text');
+		text.innerHTML = 'Ой, я поменял свой цвет!';
+	}</script>
+</head>
+<body>
+	<div id="text">Куку</div><button onclick="change()">Нажми меня!</button>
+</body>
+</html>
